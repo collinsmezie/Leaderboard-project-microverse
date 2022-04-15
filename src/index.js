@@ -6,7 +6,7 @@ const scoreValue = document.querySelector('.score-holder');
 const addBtn = document.querySelector('.submit-btn');
 const ourRefreshBtn = document.querySelector('.my-btn');
 
-addBtn.addEventListener('click', async() => {
+addBtn.addEventListener('click', async () => {
   await fetch(url, {
     method: 'POST',
     body: JSON.stringify({
