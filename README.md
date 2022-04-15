@@ -8,6 +8,14 @@
 - Frameworks: none
 - Technologies used: Git, linters, webpack.
 
+## Getting Started
+
+- open Terminal 
+- git clone git@github.com:collinsmezie/Leaderboard-project-microverse.git
+- npm install
+- npm run build
+- npm start
+
 ## Authors
 
 👤 **Collins Mezie**
