@@ -1,7 +1,6 @@
 export const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/eijg6BPwwElXXKiIPGbU/scores/';
 
 export const mainDynamicBox = document.querySelector('.dynamic-box');
-// const gameID = 'eijg6BPwwElXXKiIPGbU';
 
 export default async function displayData() {
   const fetchData = await fetch(url).then((response) => response.json());
